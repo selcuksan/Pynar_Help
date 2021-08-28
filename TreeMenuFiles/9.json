@@ -11,12 +11,12 @@
         "Bolum8.html#işaretçi-ve-çizim-araçları İşaretçi ve Çizim Araçları": {
                 "pencolor, pensize ve color uygulaması": "\nimport turtle\nkalem=turtle.Turtle()\nkalem.pencolor('red')\nkalem.pensize(3)\nkalem.forward(100)\nkalem.left(90)\nkalem.color('#ACE515')\nkalem.pensize(8)\nkalem.forward(100)\nkalem.left(90)\nkalem.pencolor('yellow')\nkalem.pensize(6)\nkalem.forward(100)\nkalem.left(90)\nkalem.color('#2259C1')\nkalem.pensize(1)\nkalem.forward(100)\nkalem.left (90)\nturtle.done()\n",
                 "dot ile çizim uygulaması": "\nimport turtle\nkalem = turtle.Turtle()\nfor i in range(5):\n\tkalem.dot()\n\tkalem.forward(20)\nturtle.done()\n",
-                "dot ile çizgisiz şekil uygulaması": "\nkalem = turtle.Turtle()\nkalem.up()\nfor i in range(5):\n\tkalem.dot()\n\tkalem.forward(20)\nturtle.done()\n",
-                "shape ve goto fonksiyonları 1": "\nkalem = turtle.Turtle()\nkalem.shape('turtle')\nkalem.forward(100)\nkalem.penup()\nkalem.goto(0, 100)\nfor i in range(5):\n\tkalem.dot()\n\tkalem.forward(20)\nturtle.done()\n",
-                "shape ve goto fonksiyonları 2": "\nkalem = turtle.Turtle()\nkalem.shape('turtle')\nfor i in range(4):\n\tkalem.up()\n\tkalem.forward(20)\n\tkalem.dot()\n\tkalem.down()\n\tkalem.forward(20)\n\tkalem.dot()\nturtle.done()\n"
+                "dot ile çizgisiz şekil uygulaması": "\nimport turtle\n\nkalem = turtle.Turtle()\nkalem.up()\nfor i in range(5):\n\tkalem.dot()\n\tkalem.forward(20)\nturtle.done()\n",
+                "shape ve goto fonksiyonları 1": "\nimport turtle\n\nkalem = turtle.Turtle()\nkalem.shape('turtle')\nkalem.forward(100)\nkalem.penup()\nkalem.goto(0, 100)\nfor i in range(5):\n\tkalem.dot()\n\tkalem.forward(20)\nturtle.done()\n",
+                "shape ve goto fonksiyonları 2": "\nimport turtle\n\nkalem = turtle.Turtle()\nkalem.shape('turtle')\nfor i in range(4):\n\tkalem.up()\n\tkalem.forward(20)\n\tkalem.dot()\n\tkalem.down()\n\tkalem.forward(20)\n\tkalem.dot()\nturtle.done()\n"
         },
         "Bolum8.html#turtle-ile-geometrik-şekiller-çizme Turtle ile Geometrik Şekiller Çizme": {
-                "turtle ile kare çizme": "\nimport turtle\nkalem = turtle.Turtle()\nkalem.pencolor('red')\nkalem.pensize(3)\nfor i in range(4):\nkalem.forward(100)\nkalem.left(90)\nturtle.done()\n",
+                "turtle ile kare çizme": "\nimport turtle\nkalem = turtle.Turtle()\nkalem.pencolor('red')\nkalem.pensize(3)\nfor i in range(4):\n\tkalem.forward(100)\n\tkalem.left(90)\nturtle.done()\n",
                 "turtle ile altıgen çizme": "\nimport turtle\nkalem = turtle.Turtle()\nkalem.pencolor('blue')\nkalem.pensize(3)\nfor i in range(6):\n\tkalem.forward(100)\n\tkalem.left(60)\nturtle.done()\n",
                 "İstenen kenar sayısında çokgen çizdirme": "\nimport turtle\nkalem = turtle.Turtle()\nkalem.pencolor('red')\nkalem.pensize(3)\nkenar_sayısı = int(\n\tinput(' çizmek istediğiniz çokgenin kenar sayısını giriniz'))\nfor i in range(kenar_sayısı):\n\tkalem.forward(50)\n\tkalem.left(360/kenar_sayısı)\nturtle.done()\n",
                 "circle fonksiyonu ile 3 farklı yarıçapta ve renkte çember çizdirme": "\nimport turtle\nkalem = turtle.Turtle()\nkalem.pencolor('orange')\nkalem.pensize(2)\nkalem.circle(20)\nkalem.pencolor('red')\nkalem.circle(30)\nkalem.pencolor('blue')\nkalem.circle(40)\nturtle.done()\n",
